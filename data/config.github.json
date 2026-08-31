@@ -86,7 +86,7 @@
       }
     ],
     "hackernews": {
-      "enabled": true,
+      "enabled": false,
       "fetch_top_stories": 40,
       "min_score": 80,
       "category": "tech-news",
@@ -238,7 +238,7 @@
     "time_window_hours": 24
   },
   "digest": {
-    "max_items": 18,
+    "max_items": 12,
     "profile_order": [
       "tech-news"
     ],
@@ -276,13 +276,12 @@
         "limit": 4,
         "categories": [
           "ai-research",
-          "ai-industry",
-          "tech-news"
+          "ai-industry"
         ]
       }
     },
     "default_group": "other",
-    "default_group_limit": 3
+    "default_group_limit": 2
   },
   "webhook": {
     "enabled": true,
