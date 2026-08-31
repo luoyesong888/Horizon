@@ -20,6 +20,10 @@
       "tech-news": {
         "threshold": 6.5,
         "topic_dedup": true
+      },
+      "finance-news": {
+        "threshold": 7.2,
+        "topic_dedup": true
       }
     }
   },
@@ -141,6 +145,27 @@
         "enabled": true,
         "category": "ai-industry",
         "profile": "tech-news"
+      },
+      {
+        "name": "CNBC Finance",
+        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "Financial Times Markets",
+        "url": "https://www.ft.com/markets?format=rss",
+        "enabled": true,
+        "category": "markets",
+        "profile": "finance-news"
+      },
+      {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/rssindex",
+        "enabled": true,
+        "category": "markets",
+        "profile": "finance-news"
       }
     ],
     "reddit": {
@@ -225,22 +250,24 @@
       "profile": "tech-news"
     },
     "google_news": {
-      "enabled": false,
-      "query": "artificial intelligence",
+      "enabled": true,
+      "query": "中国经济 OR 美联储 OR 利率 OR 通胀 OR 全球股市 OR AI科技股",
       "language": "zh-CN",
       "country": "CN",
-      "max_results": 50,
-      "category": "news",
-      "profile": "tech-news"
+      "ceid": null,
+      "max_results": 40,
+      "category": "macro-finance",
+      "profile": "finance-news"
     }
   },
   "collection": {
     "time_window_hours": 24
   },
   "digest": {
-    "max_items": 12,
+    "max_items": 16,
     "profile_order": [
-      "tech-news"
+      "tech-news",
+      "finance-news"
     ],
     "category_groups": {
       "official": {
@@ -277,6 +304,16 @@
         "categories": [
           "ai-research",
           "ai-industry"
+        ]
+      },
+      "finance": {
+        "name": "金融与宏观",
+        "limit": 4,
+        "categories": [
+          "finance",
+          "markets",
+          "macro-finance",
+          "equities"
         ]
       }
     },
