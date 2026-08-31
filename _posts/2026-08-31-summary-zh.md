@@ -5,266 +5,226 @@ date: 2026-08-31
 lang: zh
 ---
 
-> 从 417 条内容中筛选出 11 条重要资讯。
+> 从 378 条内容中筛选出 9 条重要资讯。
 
 ---
 
-**科技新闻**
-1. [开放世界多智能体环境中的自主数学发现](#item-tech-news-1) ⭐️ 9.0/10
-2. [解析 ChatGPT Work：两个产品与核心能力](#item-tech-news-2) ⭐️ 8.0/10
-3. [基于统计形状模型与可微渲染的 X 光三维骨骼重建](#item-tech-news-3) ⭐️ 7.0/10
+**AI 产品经理情报**
+1. [ChatGPT Work 拆解：云端与本地双产品形态，AI 产品经理如何应对](#item-tech-news-1) ⭐️ 9.0/10
 
 **财经新闻**
-1. [苹果宣布特努斯接替库克出任 CEO](#item-finance-news-1) ⭐️ 9.0/10
-2. [沃什杰克逊霍尔讲话推高 9 月加息预期](#item-finance-news-2) ⭐️ 8.0/10
-3. [五大 A 股上市险企上半年净利同比增 78.12%](#item-finance-news-3) ⭐️ 8.0/10
-4. [希音 SHEIN 拟以同股不同权架构赴港上市](#item-finance-news-4) ⭐️ 8.0/10
-5. [伊朗副外长称未经协调船只无法通过霍尔木兹海峡，油价与比特币上涨](#item-finance-news-5) ⭐️ 8.0/10
-6. [A 股中报利润总额增加 5800 亿元](#item-finance-news-6) ⭐️ 7.0/10
-7. [恒指周跌 1.63%，阿里 800 亿元配股全押 AI，54 只股票 9 月入通预期升温](#item-finance-news-7) ⭐️ 7.0/10
-8. [Cronos 因 Tectonic 遭 7500 万美元借贷漏洞攻击而暂停区块链](#item-finance-news-8) ⭐️ 7.0/10
+1. [沃什杰克逊霍尔鹰派讲话推高 9 月加息预期](#item-finance-news-1) ⭐️ 8.0/10
+2. [五大 A 股上市险企上半年净利同比增长 78.12%](#item-finance-news-2) ⭐️ 8.0/10
+3. [苹果据称 9 月 1 日换帅，新任 CEO 特努斯将 AI 列为首要任务](#item-finance-news-3) ⭐️ 8.0/10
+4. [851 家 A 股公司拟中期分红超 6600 亿元](#item-finance-news-4) ⭐️ 7.0/10
+5. [比亚迪股份港股盘中跌超 6% 上半年营收净利双降](#item-finance-news-5) ⭐️ 7.0/10
+6. [两部门：现房销售项目贷款期限最长 7 年；长鑫存储称 LPDDR6 内存量产](#item-finance-news-6) ⭐️ 7.0/10
+7. [比特币硬件钱包 Coldcard 被曝遭黑客攻击，损失超 1 亿美元](#item-finance-news-7) ⭐️ 7.0/10
+8. [比特币跌破 6 万美元，美光财报后大涨 16%](#item-finance-news-8) ⭐️ 7.0/10
 
 ---
 
-## 科技新闻
+## AI 产品经理情报
 
 <a id="item-tech-news-1"></a>
-### [开放世界多智能体环境中的自主数学发现](https://www.reddit.com/r/MachineLearning/comments/1w2fl67/r_autonomous_mathematical_discovery_in_an/) ⭐️ 9.0/10
+### [ChatGPT Work 拆解：云端与本地双产品形态，AI 产品经理如何应对](https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/) ⭐️ 9.0/10
 
-一项研究让来自不同模型家族的 AI 智能体在“Station”这一开放世界多智能体环境中，在没有中央协调者或固定脚本的情况下自主协作开展数学研究。在 AlphaEvolve 目录中的 12 个构造问题及两项额外案例研究中，系统在五个问题上获得了相对于现有文献的新结果：有限域 Kakeya 集合的新无限族、维度 11 中精确的 604 点亲吻构型、离散化 Kakeya 针与符号不确定性问题的纪录，以及 Erdős 最小重叠问题的显著改进下界；此外还发现了 Book Ramsey 数的新无限族。智能体不仅给出数值构造，还生成了解释构造原理的定理与分析，使结果更易理解并便于数学家进一步研究。研究团队公开了全部原始智能体对话、证明和验证代码，为这些发现的产生过程提供了透明记录。
-
-reddit · r/MachineLearning · /u/progenitor414 · 8月30日 11:55
-
-**「背景」** Kakeya 集（又称 Besicovitch 集）是包含每个方向上一条单位线段的点集；Erdős 最小重叠问题由匈牙利数学家 Paul Erdős 于 1955 年提出，研究将\{1,...,2n\}分为两个等大小互补子集后，两者平移重叠次数的最小可能值。该研究使用的“Station”是一个开放式多智能体环境，让来自不同模型家族的 AI 智能体在没有中央协调或脚本化流程的情况下自行选择研究方向、开展实验，并将结果积累成共享文献。此前的相关工作主要依赖人工设计或单一模型流程，而这一环境提供了一种更接近人类科学社群的自主协作发现机制。
-
-**「影响」** 数学家和 AI 研究人员现在可以查阅完整的智能体对话、证明和验证代码，从而验证并扩展这些自主发现的新数学结果，这标志着无需人工编排的多智能体系统已能产出可解释、可复现的新数学知识。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://arxiv.org/abs/2608.23691">[2608.23691] Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Minimum_overlap_problem">Minimum overlap problem - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Kakeya_set">Kakeya set - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**标签**: `#multi-agent systems`, `#mathematical discovery`, `#AI research`, `#machine learning`
-
----
-
-<a id="item-tech-news-2"></a>
-### [解析 ChatGPT Work：两个产品与核心能力](https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/) ⭐️ 8.0/10
-
-OpenAI 于 7 月 9 日发布 ChatGPT Work，Simon Willison 分析后指出它实际是两个产品：云端的 Work Cloud（chatgpt.com 与移动应用）和桌面应用的 Work Local（原 Codex 改造）。Work 仅向每月 20 美元及以上订阅者开放，免费用户和 8 美元 Go 用户无法使用。云端版最突出的是可访问互联网的代码执行环境、完整无头 Chrome 浏览器（可加载网页、填写表单、截屏并直接执行 JavaScript）、跨会话持久文件系统、ChatGPT Sites 发布能力、Sol/Luna/Terra 模型选择与子代理，以及定时自动化。这些功能把 Work 与普通 Chat 区分开，但模型与配额逻辑仍存在不少混淆。
+OpenAI 于 7 月 9 日发布 ChatGPT Work，但目前实际上由两个产品组成：可访问 chatgpt.com 和移动应用的 Work Cloud，以及通过原 Codex 桌面应用提供的 Work Local，后者可直接访问本地文件和运行程序。Work 仅对每月 20 美元及以上的付费订阅者开放，免费用户和每月 8 美元的 Go 用户无法使用。相比普通 Chat，Work Cloud 新增了 Luna/Terra/Sol 模型选择、带互联网访问的代码执行环境、完整的无头 Chrome 浏览器、会话间持久共享文件系统、发布 ChatGPT Sites 的能力，以及使用 Sol/Luna/Terra 的子代理会话。Simon Willison 通过大量实验指出，最突出的能力是代码执行环境可以访问整个互联网，还能克隆 GitHub 仓库、安装依赖，并驱动浏览器填写表单、截图，甚至在需要登录时让用户接管输入密码和 2FA 而不经过模型。
 
 rss · Simon Willison · 8月30日 23:59
 
-**「背景」** ChatGPT Work 是 OpenAI 在 2026 年 7 月 9 日宣布的面向“更有雄心的任务”的产品形态。它通过标签页与普通 ChatGPT Chat 并列，目标不是提供答案而是完成任务并产出可审查的文件或工作流。Work Local 源自原本叫 Codex 的桌面应用，面向非开发者做了重新包装。
+**「背景」** ChatGPT Work 是 OpenAI 面向“有明确结果的任务”推出的独立工作区，与面向“答案、解释、头脑风暴或短草稿”的 Chat 形成产品分层。OpenAI 官方对“何时用 Chat、何时用 Work”的解释被认为几乎无用，因为普通 ChatGPT Chat 早已覆盖那些任务；真正的差异在于 Work 独有的功能集合，例如带互联网的代码执行和浏览器工具，而且 Work 会话按 Codex 配额计费，Chat 会话则使用独立配额。
 
-**「影响」** 对每月 20 美元以上的已付费订阅者，Work Cloud 提供了一条可直接让 AI 代理联网编程、运行浏览器和留存文件的自动化链路，例如克隆 GitHub 仓库、安装依赖并与外部网站交互。不过默认开放全部域名的联网策略和凭据介入机制也引入新的安全与隐私考量。
+**「对 AI 产品经理的影响」** 对 AI 产品经理：ChatGPT Work 将“模型选择、代码执行、浏览器操作、持久文件系统”整合为工作流基础设施，意味着竞品需要重新评估 agent 型产品的默认能力边界，尤其是联网代码执行和浏览器自动化不再是实验室特性而是付费层核心卖点。规划路线图时应把“可配置的联网容器代理”和“无头浏览器中的用户接管认证”作为关键功能项，同时明确配额计费方式（如 Work 与 Chat 配额分离）对用户感知成本和功能可用性的影响。可以做的实验包括：对比 Work 与 Claude 容器在允许域名列表、安装包来源和仓库克隆上的差异，以此设计自己的安全策略和用户引导；或在 PRD 中把“work vs chat 场景划分”做成显式的任务分类器，而不仅依赖官方文案。
 
-**标签**: `#ChatGPT`, `#OpenAI`, `#AI assistants`, `#product analysis`, `#developer tools`
-
----
-
-<a id="item-tech-news-3"></a>
-### [基于统计形状模型与可微渲染的 X 光三维骨骼重建](https://www.reddit.com/r/MachineLearning/comments/1w2go6l/reconstructing_3d_bone_geometry_from_2_xray/) ⭐️ 7.0/10
-
-该研究提出一种无需神经网络或 CT 扫描的三维骨骼重建方法，利用从 50 个 CT 股骨网格（MedShapeNet）构建的 PCA 统计形状模型，仅需两幅正交 X 光轮廓（正位与侧位），通过 PyTorch3D 软光栅化器与 sigma 退火进行优化拟合。方法使用 10 个形状系数、Mahalanobis 先验和 Adam 优化器，约迭代 1000 次；在 5 个留出股骨的交叉验证中，平均误差为 0.86 至 1.43 毫米，但两个超出模型覆盖范围的极端案例失败，因为优化器无法恢复模型不支持的系数。在对应关系方面，ShapeWorks 表现最佳（粗糙度因子 3.3 倍于 CT 表面），优于 KD 树最近邻（50.7 倍）、CPD（28.2 倍）和 BCPD（47.5 倍），FilterReg 则无法运行。研究者还发现 sigma 退火终点必须与参考渲染的 sigma 精确匹配，将硬编码常数改为 camera\_extent×1e-4 解决了在不同形状模型间迁移时的严重精度下降问题。目前仍在使用配对 CT 数据进行真实 X 光验证，并开展自动分割工作。
-
-reddit · r/MachineLearning · /u/mxl069 · 8月30日 12:47
-
-**「背景」** 此项目涉及两个关键背景概念。一是统计形状模型（SSM）：从一组 CT 分割出的股骨网格中，用主成分分析（PCA）提取形状变化模式，用少量系数表示个体形状；MedShapeNet 提供了用于构建这类骨骼形状模型的大量三维解剖数据。二是可微渲染：用 PyTorch3D 的软光栅化器把三维模型投影成二维轮廓，并计算轮廓与 X 光影像轮廓之间的梯度，从而通过优化更新形状系数。形状对应的建立是此类流程的难点，作者提到 ShapeWorks 是一种基于粒子系统的开源形状对应工具，可自动生成不同样本间的稠密对应点，避免依赖特定表面参数化。
-
-**「影响」** 该技术可能使临床中无需 CT 即可从常规 X 光精确重建患者特异的三维骨骼几何成为可能，特别适用于术前规划或植入物匹配，但当前模型覆盖范围有限，对超出训练数据形态的极端病例尚不可靠。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://sciinstitute.github.io/ShapeWorks/latest/workflow/optimize.html">How to Optimize Your Shape Model? - ShapeWorks - GitHub Pages</a></li>
-<li><a href="https://sciinstitute.github.io/ShapeWorks/latest/">ShapeWorks - GitHub Pages</a></li>
-<li><a href="https://www.sciencedirect.com/science/chapter/edited-volume/pii/B9780128104934000122">ShapeWorks: Particle-Based Shape Correspondence and ...</a></li>
-<li><a href="https://arxiv.org/html/2308.16139v5">MedShapeNet - A Large-Scale Dataset of 3D Medical Shapes for ...</a></li>
-<li><a href="https://arxiv.org/abs/2308.16139">[2308.16139] MedShapeNet -- A Large-Scale Dataset of 3D ... MedShapeNet | MML @ IKIM GLARKI/MedShapeNet2.0: MedShapeNet 2.0 - GitHub MedShapeNet: A Large-scale Dataset of 3D Medical Shapes ( MedShapeNet -- A Large-Scale Dataset of 3D Medical Shapes for ... Paper page - MedShapeNet -- A Large-Scale Dataset of 3D ...</a></li>
-<li><a href="https://mml.ikim.nrw/ait/projects/medshapenet/">MedShapeNet | MML @ IKIM</a></li>
-
-</ul>
-</details>
-
-**标签**: `#3D reconstruction`, `#differentiable rendering`, `#statistical shape model`, `#medical imaging`, `#X-ray`
+**标签**: `#OpenAI`, `#ChatGPT Work`, `#product launch`, `#agentic workflows`, `#product teardown`
 
 ---
 
 ## 财经新闻
 
 <a id="item-finance-news-1"></a>
-### [苹果宣布特努斯接替库克出任 CEO](https://news.google.com/rss/articles/CBMijAFBVV95cUxORkVvX1BsbWhRV2d4NHp0NW96b0tUSmtNZHVSeDJrczZNVXpEQ2t1c3dOalRwVFgtRUM3Uk1hNUZXY0JUV2JLV3pwdWc5WGtxWk5RXzNMUkl6M0JSYzJJSEpjbU14OTlRZDhrZmZ4S2NROGYwMEE4YkpldHFldHJOUkh4aVk2T29la1RZcg?oc=5) ⭐️ 9.0/10
+### [沃什杰克逊霍尔鹰派讲话推高 9 月加息预期](https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html) ⭐️ 8.0/10
 
-苹果公司宣布，约翰·特努斯将于 9 月 1 日接替蒂姆·库克出任 CEO，这是苹果 15 年来首次更换一把手；据新浪财经报道，人工智能是新 CEO 的首要任务。
+美联储主席沃什在杰克逊霍尔的鹰派讲话使市场对 9 月联邦公开市场委员会（FOMC）会议更偏收紧的预期升温，分析师认为加息可能性上升，并可能使美联储与财政部产生分歧。
 
-rss · 美股每日要闻 · 8月31日 05:08
+rss · CNBC Finance · 8月31日 03:47
 
-**「背景」** 苹果公司宣布，自 2021 年起担任硬件工程高级副总裁的约翰·特努斯将于 2026 年 9 月 1 日接替蒂姆·库克出任 CEO，库克将转任董事会执行主席。这将是苹果 15 年来首次更换 CEO。
+**「背景」** 美联储主席沃什 8 月 28 日在杰克逊霍尔的演讲中警告通胀顽固，可能推动美联储走向加息；截至演讲后，交易员认为 9 月加息 25 个基点的概率约为 56%。
+
+**「影响」** 分析师表示，若 9 月会议转向更鹰派，可能加剧美联储与财政部的摩擦，并影响投资者对美债和未来利率路径的预期。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/John_Ternus">John Ternus - Wikipedia</a></li>
+<li><a href="https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html">Fed Chairman Warsh warns on inflation at Jackson Hole</a></li>
+<li><a href="https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-fed-inflation-rate-hike.html">Analysis: Kevin Warsh sharpens inflation warning at Jackson Hole, signaling possible rate hike</a></li>
+<li><a href="https://finance.yahoo.com/economy/live/jackson-hole-fed-summit-live-kevin-warsh-keynote-speech-180442096.html">Jackson Hole Fed summit live: Kevin Warsh&#x27;s keynote speech comes at a pivotal moment for the Federal Reserve</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Apple`, `#CEO transition`, `#corporate governance`, `#technology`, `#stock market`
+**标签**: `#monetary policy`, `#Federal Reserve`, `#interest rates`, `#Jackson Hole`, `#rate hikes`
 
 ---
 
 <a id="item-finance-news-2"></a>
-### [沃什杰克逊霍尔讲话推高 9 月加息预期](https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html) ⭐️ 8.0/10
+### [五大 A 股上市险企上半年净利同比增长 78.12%](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VWjR3T1NQWkRXR0VUZTZCYVZxSUM0c1pwMWN5MEhvdXZqcTF3YlJibW9KcDJzNHhTVVpZbjVxcjZpeHAyUUVGR050UlBoM0JtU01RSEJlUnd3M2wxeTZZOHl3?oc=5) ⭐️ 8.0/10
 
-美联储主席凯文·沃什在杰克逊霍尔的讲话中表达了对收紧货币政策的倾向，这提高了市场对 9 月联邦公开市场委员会会议采取更紧缩立场的预期。
-
-rss · CNBC Finance · 8月31日 03:47
-
-**「背景」** 美联储主席凯文·沃什在杰克逊霍尔发表鹰派讲话，重申央行对抗通胀的承诺，并暗示当前利率可能不足以将通胀拉回 2%目标。美联储下次政策会议定于 9 月 15-16 日，但沃什的言论并不必然意味着届时会加息。
-
-**「影响」** 分析师认为 9 月加息几率上升，并指出这可能使美联储与财政部关系紧张。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.aljazeera.com/economy/2026/8/28/us-fed-chair-warns-inflation-progress-insufficient-hints-at-rate-hikes">US Fed chair warns inflation progress insufficient, hints at rate hikes</a></li>
-<li><a href="https://www.nytimes.com/2026/08/28/business/markets-stocks-bonds-warsh-jackson-hole.html">Investors Expect Higher Rates After Fed Chairman’s Inflation Pledge</a></li>
-<li><a href="https://magnoliatribune.com/2026/08/28/fed-chair-warsh-signals-rate-hikes-may-be-needed-with-inflation-still-elevated/">Fed Chair Warsh signals rate hikes may be... - Magnolia Tribune</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Federal Reserve`, `#monetary policy`, `#interest rates`, `#Jackson Hole`, `#Kevin Warsh`
-
----
-
-<a id="item-finance-news-3"></a>
-### [五大 A 股上市险企上半年净利同比增 78.12%](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VWjR3T1NQWkRXR0VUZTZCYVZxSUM0c1pwMWN5MEhvdXZqcTF3YlJibW9KcDJzNHhTVVpZbjVxcjZpeHAyUUVGR050UlBoM0JtU01RSEJlUnd3M2wxeTZZOHl3?oc=5) ⭐️ 8.0/10
-
-据观点网报道，五大 A 股上市险企上半年合计净利润为 3173.87 亿元，同比增长 78.12%。
+五家 A 股上市险企上半年合计净利润为 3173.87 亿元，同比增长 78.12%。这一数据为已披露的半年度业绩合计值，显示上市险企整体盈利大幅改善。
 
 rss · A股每日要闻 · 8月31日 01:05
 
-**「背景」** 这五家险企为中国人保、中国人寿、中国平安、中国太保和新华保险；2025 年上半年，它们合计归母净利润约为 1781.93 亿元，同比增长 3.7%，当时投资端是主要支撑。
+**「背景」** 这五家险企是中国人保、中国人寿、中国平安、中国太保和新华保险；去年同期（2025 年上半年）五家合计归母净利润约为 1782 亿元，构成此次同比增长的对比基线。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://www.chinanews.com.cn/cj/2026/08-31/10687030.shtml">投资显效 五大上市险企半年赚超3000亿-中新网</a></li>
-<li><a href="https://m.jiemian.com/article/13289222.html">跟着万亿险资炒股：上半年表现亮眼，下半年是进是退？ | 界面新闻</a></li>
+<li><a href="https://36kr.com/newsflashes/3443186373547399">上半年A股五大上市险企共赚近1782亿元-36氪</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Insurance`, `#Earnings`, `#A-share`, `#Net Profit`, `#China`
+**标签**: `#insurance`, `#A-shares`, `#earnings`, `#China`, `#net profit`
+
+---
+
+<a id="item-finance-news-3"></a>
+### [苹果据称 9 月 1 日换帅，新任 CEO 特努斯将 AI 列为首要任务](https://news.google.com/rss/articles/CBMijAFBVV95cUxQTHRsUVlCVE5BbGNCaU80TUhiX3Viek1XTGtBenZVNDhULS1td29oTzlGa3c1VXFubWZYalJuRDJOc0hKNWItSXUxTmdBa0VsYkJ3OFdzaGkwVU9ORGpfbTJPMnJOOW5ZZ3JNZTNxLUlQLTBvdUFsajVFNVgyZGFFX1BqbTVnWWpHZ1JGeA?oc=5) ⭐️ 8.0/10
+
+据多家媒体报道，苹果公司自 9 月 1 日起将由约翰·特努斯（John Ternus）接替库克出任 CEO，报道称其将 AI 列为首要任务，并将在 9 月 9 日主持苹果秋季新品发布会；上述安排尚未获得苹果官方确认。
+
+rss · 美股每日要闻 · 8月31日 02:26
+
+**「背景」** 苹果现任 CEO 蒂姆·库克将卸任并转任董事会执行主席，由硬件工程高级副总裁约翰·特努斯自 9 月 1 日起接任 CEO。特努斯此前主导苹果自研芯片（Apple Silicon）和硬件创新。
+
+**「影响」** 对苹果投资者而言，这次换帅的主要关注点是新任 CEO 能否加快 AI 布局；苹果此前被批评在 AI 方面投入不足、进展较慢。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://news.abplive.com/technology/who-is-apple-new-ceo-john-ternus-september-tim-cook-steps-down-1837719">Who Is John Ternus ? What Changes At Apple And What Stays The...</a></li>
+<li><a href="https://www.aol.com/news/john-ternus-apple-taps-upenn-020433143.html">Who is John Ternus ? Apple taps UPenn grad as next CEO ... - AOL</a></li>
+<li><a href="https://intellectia.ai/news/stock/apple-ceo-transition-and-ai-strategy-insights">Apple CEO Transition and AI Strategy Insights</a></li>
+<li><a href="https://insights.som.yale.edu/insights/apples-ceo-transition-signals-strength-not-uncertainty">Apple’s CEO Transition Signals Strength, Not Uncertainty | Yale Insights</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Apple`, `#CEO transition`, `#John Ternus`, `#Artificial Intelligence`, `#Corporate event`
 
 ---
 
 <a id="item-finance-news-4"></a>
-### [希音 SHEIN 拟以同股不同权架构赴港上市](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSW10cDdmOTViX0VpdlFaTmY1d2pWbFFENkIwcjJ6VVdpMzdSWFVLOTA0cmlaNEVTOGlOR1RzeVdmNElObWFjNmtFR1AxYllGUENDdWFXRGU5NVVsSHdNQWo3cU1oLVpZNUZkR003d25vNzQ4NHBEbmRSSjlhUmcwU3c4M1UtYnRrVGdxRy0wbGtDTjN1SGU1azhKeksxYUctR1FXc0RlTkZwZw?oc=5) ⭐️ 8.0/10
+### [851 家 A 股公司拟中期分红超 6600 亿元](https://news.google.com/rss/articles/CBMiXEFVX3lxTE0zamtEalpPZkxMUjAwdDJQWFpZUVNnUmhaaTliaG9QTDFrUGxwUU1FMDdoZk85Tnd3QlBOWDU4TzFoY09sTzVWNnBsLTRyOVd2VXVELVNaUGRtOUlR?oc=5) ⭐️ 7.0/10
 
-据新浪财经报道，希音（SHEIN）拟以同股不同权（WVR，即加权投票权）架构赴港上市，四位联合创始人合计拥有约 90%的投票权。报道还称，港股采用 WVR 架构的上市公司数量已追平去年全年。
+据证券时报报道，851 家 A 股（内地上市）公司计划进行中期分红（年中派息），总额超过 6600 亿元人民币，显示上市公司以现金回报股东的力度较大。
 
-rss · 港股每日要闻 · 8月31日 02:09
+rss · A股每日要闻 · 8月30日 23:53
 
-**「背景」** SHEIN 是一家全球快时尚零售商，正以同股不同权（WVR）架构赴港上市，这种架构允许四位联合创始人以较少的经济权益保留约 90%的投票权，从而实现上市后仍能掌控公司。港交所数据显示，今年采用 WVR 架构上市的公司数量已追平去年全年，反映这类公司治理安排在香港市场受到持续关注。
+**「背景」** 中期分红指上市公司在半年报披露时额外向股东分配现金利润；近年来监管层持续引导上市公司提高分红频率，使越来越多的公司选择进行中期分红。
+
+**「影响」** 对持有相关 A 股的投资者而言，851 家公司拟进行的超 6600 亿元中期分红将带来直接的现金回报；其中 14 家分红超百亿元的公司里有 13 家为国有控股企业，显示国有上市公司是本轮分红的主要贡献者。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.minichart.com.sg/2026/08/29/shein-global-holdings-limited-ipo-analysis-financial-outlook-broker-coverage-and-listing-prospects/">SHEIN Global Holdings Limited IPO Analysis: Financial Outlook, Broker Coverage and Listing Prospects – Minichart</a></li>
+<li><a href="https://epaper.cs.com.cn/zgzqb/html/2026-08/31/nw.D110000zgzqb_20260831_3-A02.htm">中国证券报 - 超八百家公司计划中期分红</a></li>
+<li><a href="https://www.sfccn.com/2026/8-31/4NMDE0NjhfMjIyNTQ4Nw.html">851家A股公司拟中期分红超6600亿元 国有企业贡献近半</a></li>
+<li><a href="http://www.zqrb.cn/gscy/gongsi/2026-08-31/A1788096319941.html">851家A股公司拟中期分红超6600亿元 国有企业贡献近半</a></li>
 
 </ul>
 </details>
 
-**标签**: `#SHEIN`, `#Hong Kong IPO`, `#dual-class shares`, `#WVR`, `#consumer sector`
+**标签**: `#A股`, `#中期分红`, `#股息`, `#上市公司`, `#投资者回报`
 
 ---
 
 <a id="item-finance-news-5"></a>
-### [伊朗副外长称未经协调船只无法通过霍尔木兹海峡，油价与比特币上涨](https://news.google.com/rss/articles/CBMizgFBVV95cUxPOFdMdVpncFhfSFVJYnIyU2tpckwzZExEa0QxQ2lXWl8zQ0xPUDNPaEk1T1N3SjE1WGF4dGkwZExoVkxCamlaVTU5MWduZ3lUWHB3cFJlVzlfS0xnLVVLTVRXM2JlQUpUTFFxMVZZeEVqVk52UEIyV1pobHZkdmFvUkJEaEgzaGpUenNvUGVoLVotV21jeDJJQzRYY0JMUjZVdEZySW5naGw3SDhzSzJCTmU5TTJRcmZaWk52cHliMmNhTmo0NEdxRlFJVWttUQ?oc=5) ⭐️ 8.0/10
+### [比亚迪股份港股盘中跌超 6% 上半年营收净利双降](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vRTZ6OGNhbllLeWczY2h1eEh3S3hEelJPM2VYRlEtLUYwalRhUVhuRlZ2bmpVOFhOZVhCcHVkMy1LSnYyQTJRMGRQUW1tZHc4dEU2NHZDNWlxblIxOEhHRWdGVHN2dw?oc=5) ⭐️ 7.0/10
 
-据新浪财经报道，伊朗副外长表示，未经协调任何船只无法通过霍尔木兹海峡。消息引发国际油价盘中直线拉升，比特币涨破 7.8 万美元。
+据东方财富报道，比亚迪股份港股盘中一度跌超 6%，公司上半年营收和净利润均较去年同期有所下滑。
 
-rss · 加密货币每日要闻 · 8月30日 13:54
+rss · 港股每日要闻 · 8月31日 02:59
 
-**「背景」** 霍尔木兹海峡是全球关键的石油运输要道。近期伊朗与阿曼已同意设立临时航运路线，并讨论联合管理提案；同时，美伊围绕该海峡控制权的争夺已持续数月。
+**「背景」** 公开报道显示，比亚迪 2026 年上半年营收为 3448 亿元人民币，净利润同比下降 20.5%，主要受国内新能源汽车销量下滑和汇兑损失拖累。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.aljazeera.com/news/2026/8/26/iran-oman-agree-on-temporary-hormuz-route-what-we-know">Iran, Oman agree on temporary Hormuz route: What we know</a></li>
-<li><a href="https://www.cnbc.com/2026/08/25/iran-oman-strait-hormuz-oil.html">Iran and Oman discuss route in Strait of Hormuz, mine ... - CNBC</a></li>
-<li><a href="https://www.cnn.com/2026/08/18/business/iran-strait-of-hormuz-oil">Iran has lost significant control of the Strait of Hormuz - CNN</a></li>
+<li><a href="https://chinaevhome.com/2026/08/31/byds-overseas-revenue-surpasses-domestic-revenue-for-first-time-in-h1/">BYD ’s Overseas Revenue Surpasses Domestic Revenue for First ...</a></li>
+<li><a href="https://evmagz.com/byd-first-half-revenue-and-profit-fall-as-ev-sales-decline-despite-overseas-growth/">BYD First - Half Revenue and Profit Fall as EV Sales Decline Despite...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#oil prices`, `#Bitcoin`, `#Iran`, `#Strait of Hormuz`, `#geopolitics`
+**标签**: `#BYD`, `#Hong Kong stocks`, `#earnings decline`, `#EV industry`, `#stock movement`
 
 ---
 
 <a id="item-finance-news-6"></a>
-### [A 股中报利润总额增加 5800 亿元](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UUk10aFE1Nmxqb2dBX2l1eldoNnI0NDlLdTVhSmZQQ09MU3lUaGszUnpWTnRxWFBZb2RoekJ5M0FCWjN0NDR3aW4tWnZYZkhvZV8wSFFRby1ySHFQbVFHQg?oc=5) ⭐️ 7.0/10
+### [两部门：现房销售项目贷款期限最长 7 年；长鑫存储称 LPDDR6 内存量产](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1OUFo0bFhjZFEzY1BacTJMOVJxMDh6N2FIanBLQ2s3SlBEVWcwNlg5c0lJcHNQRExmNkpfUF8zLVdueU1WZEg2Qg?oc=5) ⭐️ 7.0/10
 
-据东方财富发布的 A 股中报全榜单，A 股上市公司半年度财务报告（中报）合计多赚 5800 亿元。
+据财联社港股早报，中国两部门表示，现房销售项目贷款期限最长可达 7 年；长鑫存储称其 LPDDR6 内存已正式量产。
 
-rss · A股每日要闻 · 8月31日 00:03
+rss · 港股每日要闻 · 8月30日 23:07
 
-**「背景」** 2026 年 A 股中报进入密集披露期，东方财富研究中心整理的全榜单显示，上市公司中期净利润合计增加 5800 亿元。
+**「背景」** 两部门近期发文改革完善房地产信贷管理，个人住房贷款期限延长至 40 年，预售项目贷款期限最长不超过 5 年、现房销售项目最长不超过 7 年；长鑫存储此次宣布 LPDDR6 内存正式量产，此前外界多预计其要到 2026 年才量产。
+
+**「影响」** 这项贷款政策主要影响房地产开发企业的项目融资安排；LPDDR6 量产则意味着长鑫存储进入新一代内存芯片供应行列。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://finance.eastmoney.com/a/202608303859501114.html">多赚5800亿！A股中报全榜单来了 _ 东方财富网</a></li>
+<li><a href="https://www.cqnews.net/web/content_1543032169487024128.html">两 部 门 发文改革完善 房 地产信 贷 管理，个人住 房 贷 款 期 限 延 长 至40...</a></li>
+<li><a href="https://post.smzdm.com/p/agwo22nm/">post.smzdm.com/p/agwo22nm</a></li>
 
 </ul>
 </details>
 
-**标签**: `#A-shares`, `#corporate earnings`, `#mid-year report`, `#China stock market`, `#economic data`
+**标签**: `#real estate policy`, `#China property loans`, `#ChangXin Memory`, `#LPDDR6`, `#semiconductor industry`
 
 ---
 
 <a id="item-finance-news-7"></a>
-### [恒指周跌 1.63%，阿里 800 亿元配股全押 AI，54 只股票 9 月入通预期升温](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OM1k3c2RwbTdNLUhPTmZ0aGs0alA3bDdObEJwTTZpS2J2UDlmRkhKSzQ4TUFKQVVBLWRNcUg3eTg0TndHNHNPVzg1eHl2ZUVWa2JWQ3VqQXo?oc=5) ⭐️ 7.0/10
+### [比特币硬件钱包 Coldcard 被曝遭黑客攻击，损失超 1 亿美元](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1BakJZclNzck9za0dNQnJwckJFaVhzSXB5TGsyY2tIWFJ6UmpiWnBCLUdGRkVZTGtRTVRRLVllclpiSE9VZFpGbw?oc=5) ⭐️ 7.0/10
 
-据界面新闻汇总，恒生指数本周下跌 1.63%，阿里巴巴 800 亿元配股将把资金全部投入人工智能领域。市场对 54 只股票 9 月纳入港股通的预期有所升温，但目前仍是预期而非确定安排。
+据财联社报道，比特币硬件钱包 Coldcard 遭黑客攻击，损失超过 1 亿美元，凸显加密货币持有者面临的安全风险。
 
-rss · 港股每日要闻 · 8月31日 01:35
+rss · 加密货币每日要闻 · 8月30日 19:12
 
-**「背景」** 阿里巴巴于 2026 年 8 月 24 日完成配售定价，以 112.7 港元发行 7.1 亿股新股，预计募资总额约 800 亿港元（净额约 797 亿港元），本次为阿里巴巴 2019 年港股双重主要上市后首次新股配售，资金将全部投入 AI 相关领域。
+**「背景」** Coldcard 是由加拿大制造商 Coinkite 生产的比特币硬件钱包，被广泛视为自托管安全领域的标杆。此次攻击利用的是部分 Coldcard 钱包生成密钥的方式存在漏洞，而非用户操作失误；据 CoinDesk 等报道，攻击者在约 25 分钟内从约 500 个单签名钱包中盗走约 594 枚比特币（当时价值约 3800 万至 4000 万美元）。财联社报道所称的“损失超 1 亿美元”具体统计口径尚待核实。
+
+**「影响」** 受影响的是使用 Coldcard 比特币硬件钱包的持币者：据 CBC 报道，这次漏洞已导致逾 1 亿美元比特币被盗；后续追踪显示损失超过 1.15 亿美元（PYMNTS），TechCrunch 则引述区块链监测公司估计总损失可能超过 1.3 亿美元。攻击者利用设备漏洞从离线钱包中直接转移资产，直接冲击了依赖硬件钱包离线存储的持币者。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://cj.sina.com.cn/articles/view/7880068836/1d5b04ee406801f9eo">阿里巴巴拟配售800亿港元新股｜港交所公告原文及完整解读 [2026年8月]...</a></li>
-<li><a href="https://m.21jingji.com/article/20260824/herald/d4a86c7f23757b0aba7155b26f4d9555.html">阿里巴巴拟配售800亿港元新股，全部投入AI建设 - 21财经</a></li>
+<li><a href="https://www.coindesk.com/tech/2026/07/31/major-bitcoin-wallet-flaw-drains-594-btc-in-25-minute-sweep">Major bitcoin wallet flaw drains 594 BTC in 25-minute sweep</a></li>
+<li><a href="https://pegasusswap.com/blog/coldcard-hack-bitcoin-self-custody-2026">The Coldcard Hack : $89 Million in Bitcoin Stolen... | PegasusSwap</a></li>
+<li><a href="https://www.htx.com/news/coldcard-hardware-wallet-hacked-594-bitcoin-withdrawn-in-25-isN9Zjgt/">Coldcard Hardware Wallet Hacked : 594 Bitcoin ... | HTX Insights</a></li>
+<li><a href="https://www.cbc.ca/news/world/bitcoin-coinkite-security-hack-9.7295582">What we know about ongoing Coldcard hack that&#x27;s stolen over $100M worth of bitcoin | CBC News</a></li>
+<li><a href="https://techcrunch.com/2026/08/04/hackers-steal-over-130-million-by-exploiting-bug-in-offline-hardware-wallets/">Hackers steal over $130M by exploiting bug in offline hardware wallets | TechCrunch</a></li>
+<li><a href="https://www.pymnts.com/cryptocurrency/2026/coldcard-breach-losses-now-exceed-115-million/">Coldcard Breach Losses Now Exceed $115 Million | PYMNTS.com</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Hang Seng Index`, `#Alibaba`, `#AI`, `#Stock Connect`, `#Hong Kong stocks`
+**标签**: `#Coldcard`, `#Bitcoin`, `#security`, `#hack`, `#cryptocurrency`
 
 ---
 
 <a id="item-finance-news-8"></a>
-### [Cronos 因 Tectonic 遭 7500 万美元借贷漏洞攻击而暂停区块链](https://www.coindesk.com/tech/2026/08/31/cronos-halts-blockchain-after-usd75-million-lending-exploit-hits-lending-app-tectonic) ⭐️ 7.0/10
+### [比特币跌破 6 万美元，美光财报后大涨 16%](https://news.google.com/rss/articles/CBMihAFBVV95cUxOemxyNm9LVUhBQUtjNTFzS3pLT3R5d0piY2V4TmxhUU42dkI5VFVXV1JIX3g4R0VpdjZNQzdQYzJNSl91UmJPNFo4TnZpNmFJWmpQbTRlb1JOWGNBOVNBZ3RKaWRwQWdzbzZtQnNXb0JLbThaT3NWVXNNOFhOcmxCQWJzRlo?oc=5) ⭐️ 7.0/10
 
-Cronos 在借贷应用 Tectonic 遭黑客攻击后暂停了其区块链，攻击造成约 7500 万美元损失。
+FX168 财经的美股收评显示，比特币跌破了 6 万美元关口，同时美光在公布强劲财报后股价大涨 16%。
 
-rss · CoinDesk Crypto · 8月31日 04:57
+rss · 加密货币每日要闻 · 8月30日 23:25
 
-**「背景」** Cronos 链在 8 月 30 日遭攻击后暂停，攻击者操纵了 Tectonic 上流动性较低的 TONIC 代币价格，并以虚高抵押借出真实资产；链上研究员估计损失在 6600 万至 7500 万美元之间。Tectonic 是 Cronos 上最大的借贷协议。
-
-**「影响」** 此次事件主要影响 Cronos 链上 Tectonic 借贷协议的用户；Cronos 暂停出块旨在阻止更多未授权交易，以便调查和追回约 7500 万美元的受影响资产。
+**「背景」** 据 CoinDesk 报道，美光 6 月 25 日公布远超预期的财报，股价大涨 16%，反映 AI 内存需求强劲；同一时期，AI 热潮持续分流资金，比特币已较去年 10 月的历史高点下跌逾 50%，目前在 6 万美元附近徘徊。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.coindesk.com/tech/2026/08/31/cronos-halts-blockchain-after-usd75-million-lending-exploit-hits-lending-app-tectonic">Cronos halts blockchain after $ 75 million lending exploit hits...</a></li>
-<li><a href="https://coincryptonewz.com/cronos-blockchain-halted-after-tectonic-exploit-drains-up-to-75-million/">Cronos Blockchain Halted After Tectonic Exploit Drains Up To $ 75 ...</a></li>
-<li><a href="https://dailycryptobriefs.com/news/cronos-tectonic-exploit-75m-chain-halt/">Cronos Halts Network After Tectonic Exploit Hits $75M ...</a></li>
-<li><a href="https://epiqtradingfloor.com/blog/cronos-network-suspends-operations-after-75m-tectonic-exploit/">Cronos Network Suspends Operations Following $75M Tectonic ...</a></li>
+<li><a href="https://www.coindesk.com/markets/2026/06/25/micron-delivers-blowout-earnings-surges-16-and-deals-crypto-bulls-a-blow">Micron Technology (MU) surged 16% after blowout earnings and ...</a></li>
+<li><a href="https://www.radom.com/insights/micron-reports-significantly-stronger-than-expected-earnings-sparking-a-16-jump-in-its-stock-price-while-impacting-cryptocurrency-market-optimism">Micron reports significantly stronger-than-expected earnings ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#cryptocurrency`, `#DeFi`, `#security exploit`, `#Cronos`, `#Tectonic`
+**标签**: `#Bitcoin`, `#Micron`, `#Earnings`, `#US Stocks`, `#Cryptocurrency`
 
 ---
