@@ -18,7 +18,7 @@
     "default_profile": "tech-news",
     "profile_settings": {
       "tech-news": {
-        "threshold": 6.5,
+        "threshold": 7,
         "topic_dedup": true
       },
       "finance-news": {
@@ -208,7 +208,7 @@
       "subreddits": [
         {
           "subreddit": "MachineLearning",
-          "enabled": true,
+          "enabled": false,
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 10,
@@ -221,8 +221,8 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 10,
-          "min_score": 30,
+          "fetch_limit": 6,
+          "min_score": 40,
           "category": "open-source-ai",
           "profile": "tech-news"
         },
@@ -231,8 +231,8 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 10,
-          "min_score": 10,
+          "fetch_limit": 6,
+          "min_score": 15,
           "category": "ai-agents",
           "profile": "tech-news"
         }
@@ -258,7 +258,7 @@
         "copilot"
       ],
       "min_stars": 20,
-      "max_items": 20,
+      "max_items": 12,
       "category": "oss-trending",
       "profile": "tech-news"
     },
@@ -299,15 +299,15 @@
     "time_window_hours": 24
   },
   "digest": {
-    "max_items": 20,
+    "max_items": 16,
     "profile_order": [
       "tech-news",
       "finance-news"
     ],
     "category_groups": {
       "official": {
-        "name": "官方模型与产品",
-        "limit": 6,
+        "name": "模型与 AI 产品",
+        "limit": 2,
         "categories": [
           "official-ai",
           "ai-product"
@@ -315,7 +315,7 @@
       },
       "agents": {
         "name": "Agent / RAG / MCP",
-        "limit": 6,
+        "limit": 2,
         "categories": [
           "agent-platform",
           "agent-framework",
@@ -326,18 +326,17 @@
         ]
       },
       "opensource": {
-        "name": "开源与趋势",
-        "limit": 6,
+        "name": "AI 工具与开源",
+        "limit": 2,
         "categories": [
           "open-source-ai",
           "oss-trending"
         ]
       },
       "research": {
-        "name": "研究与行业",
-        "limit": 4,
+        "name": "商业化、增长与行业",
+        "limit": 2,
         "categories": [
-          "ai-research",
           "ai-industry"
         ]
       },
