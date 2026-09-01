@@ -18,7 +18,7 @@
     "default_profile": "tech-news",
     "profile_settings": {
       "tech-news": {
-        "threshold": 7,
+        "threshold": 6,
         "topic_dedup": true
       },
       "finance-news": {
@@ -90,10 +90,10 @@
       }
     ],
     "hackernews": {
-      "enabled": false,
-      "fetch_top_stories": 40,
-      "min_score": 80,
-      "category": "tech-news",
+      "enabled": true,
+      "fetch_top_stories": 30,
+      "min_score": 120,
+      "category": "ai-industry",
       "profile": "tech-news"
     },
     "rss": [
@@ -142,6 +142,13 @@
       {
         "name": "Latent Space",
         "url": "https://www.latent.space/feed",
+        "enabled": true,
+        "category": "ai-industry",
+        "profile": "tech-news"
+      },
+      {
+        "name": "AI 全领域每日要闻",
+        "url": "https://news.google.com/rss/search?q=(%22%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%22%20OR%20%22%E5%A4%A7%E6%A8%A1%E5%9E%8B%22%20OR%20%22%E6%96%B0%E6%A8%A1%E5%9E%8B%22%20OR%20%22AI%20Agent%22%20OR%20OpenAI%20OR%20Anthropic%20OR%20Gemini%20OR%20DeepSeek%20OR%20%E8%B1%86%E5%8C%85%20OR%20%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE%20OR%20%E6%99%BA%E8%B0%B1%20OR%20MiniMax%20OR%20AI%E8%8A%AF%E7%89%87%20OR%20AI%E7%9B%91%E7%AE%A1)%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
         "enabled": true,
         "category": "ai-industry",
         "profile": "tech-news"
@@ -208,11 +215,11 @@
       "subreddits": [
         {
           "subreddit": "MachineLearning",
-          "enabled": false,
+          "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 10,
-          "min_score": 30,
+          "fetch_limit": 5,
+          "min_score": 80,
           "category": "ai-research",
           "profile": "tech-news"
         },
@@ -255,7 +262,11 @@
         "rag",
         "mcp",
         "model",
-        "copilot"
+        "copilot",
+        "multimodal",
+        "robotics",
+        "inference",
+        "ai-safety"
       ],
       "min_stars": 20,
       "max_items": 12,
@@ -299,22 +310,22 @@
     "time_window_hours": 24
   },
   "digest": {
-    "max_items": 16,
+    "max_items": 20,
     "profile_order": [
       "tech-news",
       "finance-news"
     ],
     "category_groups": {
       "official": {
-        "name": "模型与 AI 产品",
-        "limit": 2,
+        "name": "新模型与 AI 产品",
+        "limit": 3,
         "categories": [
           "official-ai",
           "ai-product"
         ]
       },
       "agents": {
-        "name": "Agent / RAG / MCP",
+        "name": "Agent / RAG / MCP / AI 编程",
         "limit": 2,
         "categories": [
           "agent-platform",
@@ -326,7 +337,7 @@
         ]
       },
       "opensource": {
-        "name": "AI 工具与开源",
+        "name": "AI 工具与开源项目",
         "limit": 2,
         "categories": [
           "open-source-ai",
@@ -334,10 +345,19 @@
         ]
       },
       "research": {
-        "name": "商业化、增长与行业",
+        "name": "AI 研究、基础设施与安全",
         "limit": 2,
         "categories": [
-          "ai-industry"
+          "ai-research",
+          "tech-news"
+        ]
+      },
+      "industry": {
+        "name": "AI 商业、融资、政策与行业",
+        "limit": 3,
+        "categories": [
+          "ai-industry",
+          "news"
         ]
       },
       "a_share": {
@@ -370,7 +390,7 @@
       }
     },
     "default_group": "other",
-    "default_group_limit": 2
+    "default_group_limit": 1
   },
   "webhook": {
     "enabled": true,
