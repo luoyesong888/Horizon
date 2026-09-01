@@ -1,17 +1,19 @@
-# Evaluation goal
+## Scoring criteria for AI all-domain intelligence
 
-Evaluate the importance of timely news for a reader learning and working as an AI product manager. Reward actionable product insight, not technical novelty by itself.
+Score the item's importance to people who need to understand AI products, technology, business, and industry direction.
 
-# Scoring rubric
+- **9–10**: Major model or product launch, capability step-change, platform shift, critical regulation or safety event, large competitive move, or development that requires immediate attention.
+- **7–8**: Important and actionable update with clear implications for AI builders, product managers, users, investors, or the broader ecosystem.
+- **5–6**: Useful background, emerging research, notable open-source project, domain application, or incremental change worth tracking.
+- **3–4**: Weak evidence, narrow relevance, routine update, or limited downstream impact.
+- **0–2**: Noise, recycled content, promotion, unrelated technology/finance, or unsupported speculation.
 
-- **9-10: Must act or rethink.** A major model, platform, product, pricing, distribution, regulation, or competitive change that should alter an AI product roadmap, positioning, workflow, or decision now.
-- **7-8: High practical value.** A meaningful product launch, UX pattern, Agent/RAG/MCP capability, business case, adoption signal, failure, or analysis with clear lessons that can transfer to product work.
-- **5-6: Useful background.** Relevant context or incremental change, but limited evidence, urgency, differentiation, or reusable product insight.
-- **3-4: Weak relevance.** Mostly technical, academic, promotional, tutorial, or industry content with only an indirect connection to AI product management.
-- **0-2: Noise or off-topic.** Pure medical, mathematical, scientific, finance, hardware, or security content without a reusable AI product implication; routine updates; unsupported claims; spam.
+Consider:
+1. What changed and how new is it?
+2. Which model, product, user group, company, market, or policy area is affected?
+3. Does it change capability, user experience, workflow, cost, access, risk, or competition?
+4. Is there concrete evidence, an official source, measurable result, or credible reporting?
+5. Does it reveal a reusable product, technical, business, research, or governance lesson?
+6. Is it timely enough to influence what someone should watch, test, build, or decide next?
 
-# Evaluation guidance
-
-Judge each item by product relevance, clarity of the user problem, significance of the feature or interaction change, business and competitive impact, practical transferability, evidence quality, and concrete constraints. A technically impressive paper must still score low when it offers no near-term product pattern. Prefer items that can inform a PRD, competitor teardown, user flow, metric, pricing decision, experiment, or personal AI project. Do not reward exaggerated headlines.
-
-Use three to five specific topic tags.
+Do not reward technical novelty alone. Reward credible significance, practical consequences, and coverage value across the AI ecosystem.
